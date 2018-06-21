@@ -1,0 +1,60 @@
+{
+    "pages": [
+      "page/index",
+      "page/component/button/button",
+      "page/component/row_col/row_col",
+      "page/component/loadmore/loadmore",
+      "page/component/icon/icon",
+      "page/component/progress/progress",
+      "page/component/steps/steps",
+      "page/component/toptips/toptips",
+      "page/component/toast/toast",
+      "page/component/avatar/avatar",
+      "page/component/dialog/dialog",
+      "page/component/card/card",
+      "page/component/loading/loading",
+      "page/component/popup/popup",
+      "page/component/actionSheet/actionSheet",
+      "page/component/list/list",
+      "page/component/badge/badge",
+      "page/component/searchbar/searchbar",
+      "page/component/cascader/cascader",
+      "page/component/select/select",
+      "page/component/doc/doc",
+      "page/component/segment/segment",
+      "page/component/popover/popover",
+      "page/component/accordion/accordion",
+      "page/component/tabs/tabs"
+    ],
+    "window": {
+      "navigationBarTextStyle": "black",
+      "navigationBarTitleText": "usage",
+      "navigationBarBackgroundColor": "#F8F8F8",
+      "backgroundColor": "#F8F8F8"
+    },
+    "tabBar": {
+      "color": "#7A7E83",
+      "selectedColor": "#00a0e9",
+      "borderStyle": "black",
+      "backgroundColor": "#ffffff",
+      "list": [{
+        "pagePath": "page/index",
+        "iconPath": "image/basic_unselected.png",
+        "selectedIconPath": "image/basic_selected.png",
+        "text": "组件库"
+      }, {
+        "pagePath": "page/component/doc/doc",
+        "iconPath": "image/doc_unselected.png",
+        "selectedIconPath": "image/doc_selected.png",
+        "text": "说明"
+      }]
+    },
+    "networkTimeout": {
+      "request": 10000,
+      "connectSocket": 10000,
+      "uploadFile": 10000,
+      "downloadFile": 10000
+    },
+    "debug": false
+  }
+  
